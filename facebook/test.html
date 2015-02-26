@@ -1,77 +1,15 @@
-
-<!DOCTYPE html>
 <html>
-  <head>
-  <meta name="viewport" content="width=device-width">
-    <title>Famax 3.0 - Complete Facebook Fan Page on your Website - Jquery plugin</title>
 
-    <!--jquery-->
-    <script src="./jquery.js"></script>
-
-    <script src="./famax.js"></script>
-
-    <style>
-
-      body {
-        font-family: Calibri;
-        font-size: 14px;
-        text-align:center;
-      }
-
-    </style>
-
+    <head>
     </head>
-  <body>
-        <a href="http://www.codehandling.com/2015/02/famax-30-bring-facebook-to-your-users_12.html">
-        <h1>Famax 3.0 - Complete Facebook Fan Page on your Website - Jquery plugin</h1>
-        </a>
-<br><br>
-<div id="famax" class="famax"></div>
-<br><br>    
 
-<br/><br/>
+    <body>
 
-<a href="http://www.codehandling.com/2015/02/famax-30-bring-facebook-to-your-users_12.html">See how to use this plugin - at codehandling</a>
+        <iframe src="https://m.facebook.com/scorenco" width="100%" height="100%">
 
-<br/><br/><br/>
-<br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/>
+        </iframe>
+
+    </body>
 
 
-    <script>
-
-        $('#famax').famax({
-
-            //MANDATORY
-            appId:'852602131447787',
-            appSecret:'371b114bbcc901f3ecafd9b320ddf7aa',
-            //accessToken:'852602131447787|371b114bbcc901f3ecafd9b320ddf7aa',
-
-            fanPage:'https://www.facebook.com/scorenco',
-
-            album : [
-                "https://www.facebook.com/media/set/?set=a.457845837622855.1073741825.102099916530784&type=3",
-                "https://www.facebook.com/media/set/?set=a.268276083246499.62113.102099916530784&type=3",
-                "https://www.facebook.com/media/set/?set=a.102099983197444.4412.102099916530784&type=3"
-            ],
-
-            //NON MANDATORY
-            maxResults:4, //Maximum videos to display in one load
-            innerOffset: 40, //Distance between video thumbnails
-            minItemWidth: 300, //Minumum width of a video thumbnails
-            maxItemWidth : 450, //Maximum width of a video thumbnails
-            outerOffset: 40, //Distance between video thumbnails and plugin conatiner
-            maxContainerWidth: 1000, //Maximum width of plugin container
-            alwaysUseDropdown: false,
-            imagesFolderPath: './images',
-            maxAttachments: 3,
-            selectedTab: 'p',
-            skin:'grey'
-        });
-
-    </script>
-  </body>
 </html>
-
-
-
