@@ -303,7 +303,7 @@ function FacebookPostDirective(facebookService) {
     return {
         restrict: 'E',
         replace: true,
-        template: '<fb:post ng-attr-href ng-attr-width></fb:post>',
+        template: '<fb:timeline ng-attr-href ng-attr-width></fb:timeline>',
         scope: {
             href: '@href',
             width: '@width'
