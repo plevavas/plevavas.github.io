@@ -148,7 +148,7 @@ vous fournir la formation la plus optimisée.</p>
             <div class="contact-inner">
                 <h2 class="title  text-center">Contact</h2>
                 <form class="form-horizontal"
-                      action="//flipmail.co/api/kjQFy88keMK7atODGMQY"
+                      action="//flipmail.co/api/bnUgfGq0Gz7fGFQtHONT"
                       method="post">
                     <div class="form-group">
                         <label for="inputName" class="col-sm-2 control-label">Nom</label>
@@ -178,7 +178,11 @@ vous fournir la formation la plus optimisée.</p>
                       <div class="col-sm-2">
                       </div>
                       <div class="col-sm-10">
+                        <input type="hidden" name="_valid[name]" value="required">
+                        <input type="hidden" name="_valid[email]" value="required|valid_email">
+                        <input type="hidden" name="_valid[message]" value="required">
                         <input type="hidden" name="_confirmation" value="<b>Merci!</b> Vous recevrez une réponse dans les plus bref délais.">
+                        <input type="hidden" name="_after" value="http://mh-formations.bzh/">
                       </div>
                     </div>
                 </form>
